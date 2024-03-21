@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kotta+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&family=Madimi+One&display=swap');
 
 * {
   margin: 0;
@@ -17,6 +17,26 @@ body {
   background: linear-gradient(45deg, rgb(0, 0, 0), rgb(59, 53, 53));
 }
 
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+
+h1{
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  font-size: 40px;
+  background: linear-gradient(180deg,hwb(163 0% 0%),rgb(131, 255, 16));
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
 .calculator {
   /* background-color: blue; */
   border: 1px solid rgb(121, 113, 113);
@@ -24,7 +44,6 @@ body {
   border-radius: 1rem;
   background: transparent;
   box-shadow: 0px 3px 5px rgba(228, 179, 179, 0.493);
-  
 }
 .calculator:hover {
   transition: all ease 0.5s;
@@ -47,7 +66,7 @@ input::placeholder {
   color: aliceblue;
 }
 
-button{
+button {
   border: none;
   width: 3rem;
   height: 3rem;
@@ -56,18 +75,18 @@ button{
   background: none;
   color: white;
   font-size: 20px;
-  box-shadow:-8px -6px 8px rgb(161 152 152 / 28%);
+  box-shadow: -8px -6px 8px rgb(161 152 152 / 28%);
   cursor: pointer;
 }
-button:hover{
-  box-shadow:-5px -5px 5px rgb(161, 127, 127);
+button:hover {
+  box-shadow: -5px -5px 5px rgb(161, 127, 127);
 }
 
-.calculator:hover .equalBtn{
+.calculator:hover .equalBtn {
   background-color: #ff880075;
 }
 
-.calculator:hover .operators{
+.calculator:hover .operators {
   color: rgb(87, 230, 182);
 }
 
